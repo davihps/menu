@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-size: 200%;
+  font-family: "Montserrat";
+  background-image: url("https://images.unsplash.com/photo-1574484184081-afea8a62f9c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODczMDMwMjF8&ixlib=rb-4.0.3&q=100%&w=100%");
+}
+
+strong {
+  font-weight: 600;
+}
+
+.box {
+  border: 4px powderblue solid;
+  background: rgb(255, 241, 0);
+  background: linear-gradient(
+    130deg,
+    rgba(255, 241, 0, 1) 0%,
+    rgba(255, 165, 0, 1) 100%
+  );
+  padding: 2%;
+  margin: 4%;
+  margin-left: 17%;
+  margin-right: 17%;
+}
+
+.titles {
+  font-size: 180%;
+  padding-bottom: 0.3%;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+}
+
+.session {
+  padding: 2%;
+}
+
+.item_description {
+  text-align: center;
+  padding-bottom: 0.9%;
+}
+
+.description {
+  font-size: 75%;
+}
+
+@media only screen and (max-device-width: 800px) {
+  .titles {
+    font-size: 150%;
+  }
+
+  .item_description {
+    font-size: 90%;
+  }
+
+  .box {
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+}
+
+@media only screen and (min-device-width: 2400px) {
+  .titles {
+    font-size: 230%;
+  }
+
+  .item_description {
+    font-size: 130%;
+  }
+
+  .box {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
