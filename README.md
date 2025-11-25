@@ -1,2 +1,3 @@
-Menu for a restaurant!
+# Menu for a restaurant!
+
 A simple digital menu developed for a school project when I was 14. Built using HTML and CSS.
